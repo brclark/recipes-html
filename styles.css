@@ -1,0 +1,17 @@
+table, th, td {
+    border: 1px solid orange;
+}
+
+table {
+    width: 100%;
+}
+
+.amount {
+    font-weight: bold;
+    font-style: italic;
+    text-align: center;
+}
+
+#first-direction {
+    color: red;
+}
