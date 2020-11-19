@@ -15,3 +15,8 @@ table {
 #first-direction {
     color: red;
 }
+
+.recipe-title {
+    color: orange;
+    font-family: Snell Roundhand, cursive;
+}
