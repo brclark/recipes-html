@@ -9,18 +9,16 @@ function main() {
 function nextDirection() {
     let directionButton = document.getElementById("direction-start");
 
-    let currentPosition = directionButton.getAttribute("data-current");
-    let newPosition = Number(currentPosition) + 1;
+    let currentPosition = Number(directionButton.getAttribute("data-current"));
+    let newPosition = currentPosition + 1;
 
     let directionsList = document.getElementById("direction-list").getElementsByTagName("li");
 
-    if (Number(currentPosition) === directionsList.length) {
+    if (currentPosition === directionsList.length) {
         return;
     } 
 
-    //console.log(ingredientsList);
     let currentDirection = directionsList[currentPosition];
-    //console.log(currentIngredient);
     currentDirection.style.color = "green";
 
     if (currentPosition > 0) {
@@ -30,5 +28,5 @@ function nextDirection() {
     }
     directionButton.setAttribute("data-current", newPosition);
 
-    directionButton.innerText = "" + "Next";
+    directionButton.innerText = "Next";
 }
