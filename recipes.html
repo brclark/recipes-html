@@ -5,7 +5,7 @@
         <title>Sweet Potato Recipe</title>
 
         <link rel="stylesheet" href="styles.css" type="text/css">
-
+        <script src="script.js"></script>
     </head>
     <body>
         <h1>Ben's Recipes</h1>
@@ -75,7 +75,7 @@
 
 
         <h4>Directions</h4>
-        <ol>
+        <ol id="direction-list">
             <li id="first-direction">Prepare a big pot of boiling water. Add sweet potatoes to boiling water and boil for 20-25 minutes.</li>
             <li>While potatoes are boiling, preheat oven to <strong>350 degrees</strong> and get your mixing bowl and spices ready.</li>
             <li>When potatoes are finished, run under cold water to aid in peeling off the skin.</li>
@@ -89,6 +89,8 @@
             <li>Bake for 40 minutes in oven</li>
             <li>Enjoy!</li>
         </ol>
+
+        <button id="direction-start" data-current="0">Start</button>
         <!-- Ingredients list -> <table>
         Steps/Directions -> <ol>
         Serving size -->

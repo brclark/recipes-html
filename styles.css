@@ -25,3 +25,14 @@ table {
     background-image: url("https://tmbidigitalassetsazure.blob.core.windows.net/rms3-prod/attachments/37/1200x1200/Sweet-Potato-Pie_EXPS_GHBZ18_1203_B08_15_3b.jpg");
 
 }
+
+#direction-start {
+    background-color: #4CAF50;
+    border: none;
+    color: white;
+    padding: 7px 16px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+}
